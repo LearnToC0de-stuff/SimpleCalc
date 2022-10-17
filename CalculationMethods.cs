@@ -1,14 +1,17 @@
 using System;
+
 namespace Calculations
 {
 
     public class MathStuff
     {
-        bool extend1 = true;
+        
 
-        public void Menu()
+        public static void Menu()
+        
         {
-            while (extend1)
+            bool extend = true;
+            while (extend)
             {
                 Console.WriteLine("Add (A)");
                 Console.WriteLine("Subtract (S)");
@@ -21,13 +24,13 @@ namespace Calculations
                 switch(choice)
                 {
                     case 'a':
-
-                    break;
+                        Addition();
+                        break;
                     case 'A':
-
+                        Addition();
                         break;
                     case 's':
-
+                        Subtraction();
                         break;
                     case 'S':
 
@@ -36,22 +39,22 @@ namespace Calculations
 
                         break;
                     case 'M':
-
+                        Multiplication();
                         break;
                     case 'd':
 
                         break;
                     case 'D':
-
+                        Division();
                         break;
                     case 'e':
-
+                        extend = false;
                         break;
                     case 'E':
 
                         break;
                     default:
-                        Console.WriteLine("Please enter one of the characters in the parenthesis");
+                        Console.WriteLine("\nPlease enter one of the characters in the parenthesis");
                         break;
                 }
 
@@ -59,6 +62,56 @@ namespace Calculations
 
             }
         }  
+
+        public static double Addition()
+        {
+            double x,y;
+            
+            Console.WriteLine("\nEnter the first number");
+            double.TryParse(Console.ReadLine(), out x);
+            
+            
+            Console.WriteLine("Enter the second number");
+            double.TryParse(Console.ReadLine(), out y);
+            double result = x+y;
+            Console.WriteLine("The result is " + result);
+            return result;
+        }
+
+        public static double Subtraction()
+        {
+            
+            Console.WriteLine("\nEnter the first number");
+            double x = Convert.ToDouble(Console.ReadLine()); 
+            
+            Console.WriteLine("Enter the second number");
+            double y = Convert.ToDouble(Console.ReadLine()); 
+            
+            double result = x - y;
+            return result;
+        }
+
+        public static double Multiplication()
+        {
+
+            Console.WriteLine("\nEnter the first number");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the second number");
+            double y = Convert.ToDouble(Console.ReadLine());
+            double result = x * y;
+            return result;
+        }
+
+        public static double Division()
+        {
+
+            Console.WriteLine("\nEnter the first number");
+            double x = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the second number");
+            double y = Convert.ToDouble(Console.ReadLine());
+            double result = x / y;
+            return result;
+        }
         
     }
 

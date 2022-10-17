@@ -1,0 +1,15 @@
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/SimpleCalc.csproj.AssemblyReference.cache
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/SimpleCalc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/SimpleCalc.AssemblyInfoInputs.cache
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/SimpleCalc.AssemblyInfo.cs
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/SimpleCalc.csproj.CoreCompileInputs.cache
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/bin/Debug/net6.0/SimpleCalc
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/bin/Debug/net6.0/SimpleCalc.deps.json
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/bin/Debug/net6.0/SimpleCalc.runtimeconfig.json
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/bin/Debug/net6.0/SimpleCalc.dll
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/bin/Debug/net6.0/SimpleCalc.pdb
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/SimpleCalc.dll
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/refint/SimpleCalc.dll
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/SimpleCalc.pdb
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/SimpleCalc.genruntimeconfig.cache
+/Users/sawyermatteson/Desktop/Github/SimpleCalc/obj/Debug/net6.0/ref/SimpleCalc.dll
