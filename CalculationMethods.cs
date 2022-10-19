@@ -73,6 +73,7 @@ namespace Calculations
             
             Console.WriteLine("Enter the second number");
             double.TryParse(Console.ReadLine(), out y);
+            
             double result = x+y;
             Console.WriteLine("The result is " + result);
             return result;
@@ -80,36 +81,46 @@ namespace Calculations
 
         public static double Subtraction()
         {
-            
+            double x, y;
+
             Console.WriteLine("\nEnter the first number");
-            double x = Convert.ToDouble(Console.ReadLine()); 
+            double.TryParse(Console.ReadLine(), out x);
             
             Console.WriteLine("Enter the second number");
-            double y = Convert.ToDouble(Console.ReadLine()); 
+            double.TryParse(Console.ReadLine(), out y);
             
             double result = x - y;
+            Console.WriteLine("The result is " + result);
             return result;
         }
 
         public static double Multiplication()
         {
+            double x, y;
 
             Console.WriteLine("\nEnter the first number");
-            double x = Convert.ToDouble(Console.ReadLine());
+            double.TryParse(Console.ReadLine(), out x);
+            
             Console.WriteLine("Enter the second number");
-            double y = Convert.ToDouble(Console.ReadLine());
+            double.TryParse(Console.ReadLine(), out y);
+            
             double result = x * y;
+            Console.WriteLine("The result is " + result);
             return result;
         }
 
         public static double Division()
         {
+            double x, y;
 
             Console.WriteLine("\nEnter the first number");
-            double x = Convert.ToDouble(Console.ReadLine());
+            double.TryParse(Console.ReadLine(), out x);
+            
             Console.WriteLine("Enter the second number");
-            double y = Convert.ToDouble(Console.ReadLine());
+            double.TryParse(Console.ReadLine(), out y);
+            
             double result = x / y;
+            Console.WriteLine("The result is " + result);
             return result;
         }
         
