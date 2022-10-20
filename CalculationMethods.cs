@@ -123,6 +123,12 @@ namespace Calculations
             Console.WriteLine("The result is " + result);
             return result;
         }
+
+        // method for square root 
+
+
+
+        // menu for multiple numbers math
         
     }
 
